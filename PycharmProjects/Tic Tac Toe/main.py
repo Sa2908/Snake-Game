@@ -148,8 +148,6 @@ def gameLoop():
             screen_score(f"Score : {score} High Score : {highScore}", red, 5, 5)
             pygame.draw.rect(gameWindow, red, (food_x, food_y, snake_size, snake_size))
 
-            # gameWindow.blit(grid, (0, 0))
-            # gameWindow.blit(X, (500, 500))
 
             head = []
             head.append(snake_x)
